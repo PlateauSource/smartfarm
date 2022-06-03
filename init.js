@@ -1,7 +1,6 @@
 const queryString = window.location.pathname.split('/')[3];
 
-alert(3)
-window.onload = function(){
+
     var logoAlani = document.querySelector('.plt-smartfarm-logo')
     alert(3)
     if(queryString === "smartfarm"){
@@ -14,4 +13,4 @@ window.onload = function(){
         alert(2)
     }
 
- }
+
