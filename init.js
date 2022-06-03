@@ -2,7 +2,7 @@ const queryString = window.location.pathname.split('/')[3];
 
 
     var logoAlani = document.querySelector('.plt-smartfarm-logo')
-    alert(3)
+    alert("deneme")
     if(queryString === "smartfarm"){
         alert(1)
         logoAlani.src = 'img/smartfarm-logo-1.svg';
